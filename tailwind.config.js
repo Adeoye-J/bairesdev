@@ -10,6 +10,18 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bg: "var(--bg)",
+        bgsoft: "var(--bgSoft)",
+        text: "var(--text)",
+        text: "var(--text)",
+        textsoft: "var(--textSoft)",
+        btn: "var(--btn)",
+      },
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+        xl: "1440px",
       },
     },
   },

@@ -10,9 +10,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="w-[95%] md:w-[90%] m-auto pl-[20px] pr-[20px] min-h-[100vh] flex flex-col justify-between">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
