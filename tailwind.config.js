@@ -23,6 +23,9 @@ module.exports = {
         lg: "976px",
         xl: "1440px",
       },
+      rotate: {
+        '270': '270deg',
+      },
     },
   },
   plugins: [],

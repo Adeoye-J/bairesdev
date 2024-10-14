@@ -14,7 +14,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex-1 relative">
-        <Image className="heroImg" src={"/home.png"} alt="" fill/>
+        <Image className="heroImg" src={"/home.png"} alt="Home Image" fill/>
       </div>
     </div>
   );
